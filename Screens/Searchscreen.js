@@ -32,7 +32,7 @@ const Searchscreen = props => {
     let searchText = text.split(' ').join('+');
     if (text && text.length > 0) {
       let response = await fetchPosts(
-        `https://itunes.apple.com/search?term=${searchText}&entity=musicTrack&country=in&limit=200`,
+        `https://itunes.apple.com/search?term=${searchText}&entity=musicTrack&country=in&limit=100`,
       ).catch(err => {
         console.log(err);
       });

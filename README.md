@@ -41,5 +41,4 @@ Follow react-native-track-player documentation and make setup changes accordingl
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
